@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    /*properti list-style-type dengan nilai none akan menghilangkan tanda titik yang dihasilkan tiap item pada list */
+    margin-right: 20px;
+}
+
+nav.navigasi-atas {
+    padding: 5px;
+    background-color: chocolate;
+}
+
+h2 {
+    color: chocolate;
+}
+
+h3 {
+    color: chocolate;
+}
+
+aside {
+    flex-basis: 25%;
+    align-self: start;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: greenyellow;
+    text-align: center;
+    color: white;
+}
+
+#content {
+    flex-basis: 75%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #bdbdbd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.featured-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+footer p {
+    padding: 20px;
+    color: white;
+    background-color: greenyellow;
+    position: relative;
+    text-align: center;
+}
